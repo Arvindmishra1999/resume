@@ -1,0 +1,88 @@
+header{
+	/*background-image: url(logo.jpg);*/
+	text-align: center; 
+	padding: 15px;
+	background-image: url(a.jpg);
+}
+
+body{
+	background-color: lightpink;
+	margin: 2%;
+	background-image: url(mysite.jpg);
+}
+
+h1,h3{
+	color: red;
+	font-variant: small-caps;
+	font-family: "Time New Roman", serif;
+}
+
+h3{
+	color: orange;
+}
+
+h4{
+	text-transform: uppercase;
+	color: #00ff00;
+}
+
+h4 p{
+	display: inline;
+	text-transform: lowercase;
+	color: red;
+}
+
+.paragraph{
+	text-transform: none;
+}
+
+.left h4{
+	display: inline-block;
+	float: left;
+	margin-right: 100px; 
+}
+
+.left p{
+	display: block;
+	text-transform: none;
+}
+
+#L, .left, .right{
+	padding-left: 5%
+}
+
+section{
+	display: inline-block;
+	float: left;
+}
+
+img{
+	border: 2px solid blue;
+	width: 200px;
+}
+
+nav a{
+	color:lightyellow;
+	display: inline-block;
+	width: 230px;
+	background-color: transparent;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+nav a:hover{
+	background-color: #ffffff;
+	color:#0006CC;
+}
+
+nav a:focus{
+	background-color: #ffffff;
+	color:#0006CC;
+}
+
+nav a:active{
+	border: 3px solid #000000;
+}
